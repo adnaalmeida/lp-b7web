@@ -1,0 +1,59 @@
+* {
+    font-family:Arial;
+}
+body {
+    margin:0;
+    padding:0;
+}
+header {
+    display:flex;
+    justify-content:center;
+    height:100px;
+    background-color:#000000;
+}
+.container { 
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width:990px;
+}
+.logo {
+    padding-left:20px;
+}
+nav ul,
+nav li {
+    list-style: none;
+}
+nav ul {
+    display:flex;
+}
+nav a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    color: white;
+}
+.rede {
+    padding-right:20px;
+}
+#banner {
+        display:flex;
+        justify-content:center;
+        background-image:url('../image/face.jpg');
+        background-position:center;
+        background-size:cover;
+        height:550px;
+}
+    
+
+
+
+
+
+
+
+
+
+footer {
+    height:200px;
+}
